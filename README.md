@@ -63,7 +63,7 @@ Usage
 Once the extension is installed, check the url:
 [your application base url]/index.php/log-module
 
-Note: This Log only be accessed if the user has been logged. Otherwise it will be a error 404.
+**Note: This Log only be accessed if the user has been logged. Otherwise it will be a error 404.**
 
 
 ## License
