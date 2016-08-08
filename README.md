@@ -1,4 +1,4 @@
-# Testa-Log [![Build Status](https://img.shields.io/travis/dektrium/yii2-user/master.svg?style=flat-square)](https://travis-ci.org/dektrium/yii2-user) [![Packagist Version](https://img.shields.io/packagist/v/dektrium/yii2-user.svg?style=flat-square)](https://packagist.org/packages/dektrium/yii2-user) [![Total Downloads](https://img.shields.io/packagist/dt/dektrium/yii2-user.svg?style=flat-square)](https://packagist.org/packages/dektrium/yii2-user) [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+# Yii2-Log
 
 The main function is to record the changes in the model.
 * There is a feature to allow users see these logs.
@@ -7,31 +7,22 @@ The main function is to record the changes in the model.
 Installation
 ------------
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
-```
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/). 
 After, either run
 
 ```
 php composer.phar require --prefer-dist hendrignwn/yii2-log "*"
 ```
-
 or add
-
 ```
 "hendrignwn/yii2-log": "*"
 ```
-
 to the require section of your `composer.json` file.
-
 run migration for database
-
 ```
 ./yii migrate --migrationPath=@hendrignwn/log/migrations
 ```
-
 add in modules section of main config
-
 ```
     'modules' => [
         ...
@@ -42,7 +33,7 @@ add in modules section of main config
     ]
 ```
 
-add in the Model that you want to Log in function behavior()
+add in the Model that you want to Log into function behavior()
 
 ```
     public function behaviors() {
