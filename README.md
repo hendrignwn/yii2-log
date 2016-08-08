@@ -11,7 +11,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 After, either run
 
 ```
-composer require hendrignwn/yii2-log
+php composer.phar require --prefer-dist hendrignwn/yii2-log
 ```
 or add
 ```
