@@ -12,7 +12,7 @@ class Module extends \yii\base\Module
      */
     public $controllerNamespace = 'hendrignwn\log\controllers';
 	
-	public $defaultRoute = 'log/index';
+    public $defaultRoute = 'log/index';
     
     public $layout = 'main';
 
@@ -24,7 +24,7 @@ class Module extends \yii\base\Module
         parent::init();
         
         if(\Yii::$app->user->isGuest) {
-			throw new \yii\web\HttpException(404, 'Page not found..');
+            throw new \yii\web\HttpException(404, 'Page not found..');
 		}
 		
         // custom initialization code goes here
