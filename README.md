@@ -11,16 +11,16 @@ The preferred way to install this extension is through [composer](http://getcomp
 After, either run
 
 ```
-php composer.phar require --prefer-dist hendrignwn/yii2-log "*"
+composer require hendrignwn/yii2-log
 ```
 or add
 ```
-"hendrignwn/yii2-log": "*"
+"hendrignwn/yii2-log": "dev-master"
 ```
 to the require section of your `composer.json` file.
 run migration for database
 ```
-./yii migrate --migrationPath=@hendrignwn/log/migrations
+yii migrate --migrationPath=@hendrignwn/log/migrations
 ```
 add in modules section of main config
 ```
