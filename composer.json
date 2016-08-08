@@ -1,0 +1,24 @@
+{
+    "name": "hendrignwn/yii2-log",
+    "description": "Activity Logs function model",
+    "keywords": ["yii2", "log"],
+    "type": "yii2-extension",
+    "license": "Propietary",
+	"version":  "1.0.0",
+    "authors": [
+        {
+            "name": "Hendri Gunawan",
+			"email": "hendri.gnw@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hendrignwn\\log\\": ""
+        }
+    }
+}
