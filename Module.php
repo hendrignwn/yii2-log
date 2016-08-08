@@ -25,7 +25,7 @@ class Module extends \yii\base\Module
         
         if(\Yii::$app->user->isGuest) {
             throw new \yii\web\HttpException(404, 'Page not found..');
-		}
+        }
 		
         // custom initialization code goes here
     }
