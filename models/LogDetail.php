@@ -29,7 +29,7 @@ class LogDetail extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['log_id', 'field', 'old_value', 'new_value'], 'required'],
+            [['log_id', 'field', 'old_value', 'new_value'], 'safe'],
             [['log_id'], 'integer'],
             [['old_value', 'new_value'], 'string'],
             [['field'], 'string', 'max' => 30],
